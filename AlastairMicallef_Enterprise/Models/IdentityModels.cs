@@ -29,5 +29,8 @@ namespace AlastairMicallef_Enterprise.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<AlastairMicallef_Enterprise.Models.QualityModels> QualityModels { get; set; }
+
     }
 }
